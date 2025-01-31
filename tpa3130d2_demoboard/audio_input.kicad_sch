@@ -1402,7 +1402,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A"
 			(at 113.03 54.3052 0)
 			(effects
 				(font
@@ -1421,6 +1421,24 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 116.84 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kyocera AVX"
+			(at 116.84 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "TAJA105K035RNJ"
 			(at 116.84 53.34 0)
 			(effects
 				(font
@@ -1472,7 +1490,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 73.152 60.96 90)
 			(effects
 				(font
@@ -1491,6 +1509,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 74.93 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 74.93 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0603WAJ0473T5E"
 			(at 74.93 60.96 0)
 			(effects
 				(font
@@ -1540,7 +1576,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A"
 			(at 113.03 67.0052 0)
 			(effects
 				(font
@@ -1559,6 +1595,24 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 116.84 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kyocera AVX"
+			(at 116.84 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "TAJA105K035RNJ"
 			(at 116.84 66.04 0)
 			(effects
 				(font
@@ -1676,7 +1730,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 73.152 124.46 90)
 			(effects
 				(font
@@ -1695,6 +1749,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 74.93 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 74.93 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0603WAJ0473T5E"
 			(at 74.93 124.46 0)
 			(effects
 				(font
@@ -1744,7 +1816,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A"
 			(at 113.03 102.5652 0)
 			(effects
 				(font
@@ -1763,6 +1835,24 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 116.84 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kyocera AVX"
+			(at 116.84 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "TAJA105K035RNJ"
 			(at 116.84 101.6 0)
 			(effects
 				(font
@@ -1980,6 +2070,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 69.85 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 69.85 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "RN"
 			(uuid "7e89998d-e10f-4537-a689-0e24498292c1")
 		)
@@ -2052,6 +2160,24 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 59.69 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Ningbo Kangnex Elec"
+			(at 59.69 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "WJ500V-5.08-2P"
 			(at 59.69 55.88 0)
 			(effects
 				(font
@@ -2194,6 +2320,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Ningbo Kangnex Elec"
+			(at 59.69 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "WJ500V-5.08-2P"
+			(at 59.69 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8004dad6-c534-411c-a4b0-eb71e6334c37")
 		)
@@ -2235,7 +2379,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A"
 			(at 113.03 89.8652 0)
 			(effects
 				(font
@@ -2254,6 +2398,24 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 116.84 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kyocera AVX"
+			(at 116.84 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "TAJA105K035RNJ"
 			(at 116.84 88.9 0)
 			(effects
 				(font
