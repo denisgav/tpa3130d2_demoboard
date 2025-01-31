@@ -582,6 +582,18 @@
     [
       "f902c1ad-20bc-4faf-a06c-24252e16fe16",
       "Root"
+    ],
+    [
+      "88004cc5-25e2-41b0-afa6-5c47c1a612a8",
+      "audio_input"
+    ],
+    [
+      "3a6a6152-38d3-4f68-bfaa-49021f89e7f4",
+      "tpa3130d2"
+    ],
+    [
+      "b81f8829-7d65-4266-b39a-81a8ffe7f0ea",
+      "audio_output"
     ]
   ],
   "text_variables": {}

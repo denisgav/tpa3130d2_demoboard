@@ -10,7 +10,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0.254 40.894 0)
+			(at 17.78 40.894 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -26,7 +26,7 @@
 			)
 		)
 		(property "Footprint" "tpa3130d2_demoboard:TPA3130D2DAPR_M"
-			(at 0.254 -9.144 0)
+			(at -0.254 -8.636 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -74,7 +74,7 @@
 		)
 		(symbol "TPA3130D2DAPR_0_1"
 			(pin input line
-				(at -22.86 5.08 0)
+				(at -24.13 -31.75 0)
 				(length 5.08)
 				(name "MODSEL"
 					(effects
@@ -92,7 +92,7 @@
 				)
 			)
 			(pin input line
-				(at -22.86 12.7 0)
+				(at -24.13 20.32 0)
 				(length 5.08)
 				(name "LINP"
 					(effects
@@ -110,7 +110,7 @@
 				)
 			)
 			(pin input line
-				(at -22.86 10.16 0)
+				(at -24.13 17.78 0)
 				(length 5.08)
 				(name "LINN"
 					(effects
@@ -128,7 +128,7 @@
 				)
 			)
 			(pin input line
-				(at -22.86 -5.08 0)
+				(at -24.13 -17.78 0)
 				(length 5.08)
 				(name "MUTE"
 					(effects
@@ -146,7 +146,7 @@
 				)
 			)
 			(pin input line
-				(at -22.86 -15.24 0)
+				(at -24.13 -27.94 0)
 				(length 5.08)
 				(name "AM2"
 					(effects
@@ -164,7 +164,7 @@
 				)
 			)
 			(pin input line
-				(at -22.86 -12.7 0)
+				(at -24.13 -25.4 0)
 				(length 5.08)
 				(name "AM1"
 					(effects
@@ -182,7 +182,7 @@
 				)
 			)
 			(pin input line
-				(at -22.86 -10.16 0)
+				(at -24.13 -22.86 0)
 				(length 5.08)
 				(name "AM0"
 					(effects
@@ -200,7 +200,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -22.86 -35.56 0)
+				(at -24.13 -35.56 0)
 				(length 5.08)
 				(name "SYNC"
 					(effects
@@ -218,7 +218,7 @@
 				)
 			)
 			(pin power_in line
-				(at -22.86 35.56 0)
+				(at 5.08 43.18 270)
 				(length 5.08)
 				(name "AVCC"
 					(effects
@@ -236,7 +236,7 @@
 				)
 			)
 			(pin power_in line
-				(at -22.86 33.02 0)
+				(at 2.54 43.18 270)
 				(length 5.08)
 				(name "PVCC"
 					(effects
@@ -254,7 +254,7 @@
 				)
 			)
 			(pin power_in line
-				(at -22.86 30.48 0)
+				(at 0 43.18 270)
 				(length 5.08)
 				(name "PVCC"
 					(effects
@@ -272,7 +272,7 @@
 				)
 			)
 			(pin input line
-				(at -22.86 0 0)
+				(at -24.13 -1.27 0)
 				(length 5.08)
 				(name "SDZ"
 					(effects
@@ -290,7 +290,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 22.86 10.16 180)
+				(at 24.13 -11.43 180)
 				(length 5.08)
 				(name "BSNL"
 					(effects
@@ -308,7 +308,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 22.86 2.54 180)
+				(at 24.13 -13.97 180)
 				(length 5.08)
 				(name "OUTNL"
 					(effects
@@ -326,7 +326,7 @@
 				)
 			)
 			(pin power_in line
-				(at 22.86 -25.4 180)
+				(at 3.81 -43.18 90)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -344,7 +344,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 22.86 -10.16 180)
+				(at 24.13 -26.67 180)
 				(length 5.08)
 				(name "OUTPL"
 					(effects
@@ -362,7 +362,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 22.86 -2.54 180)
+				(at 24.13 -24.13 180)
 				(length 5.08)
 				(name "BSPL"
 					(effects
@@ -380,7 +380,7 @@
 				)
 			)
 			(pin power_in line
-				(at 22.86 -27.94 180)
+				(at 1.27 -43.18 90)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -398,7 +398,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 22.86 22.86 180)
+				(at 24.13 13.97 180)
 				(length 5.08)
 				(name "BSNR"
 					(effects
@@ -416,7 +416,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 22.86 15.24 180)
+				(at 24.13 11.43 180)
 				(length 5.08)
 				(name "OUTNR"
 					(effects
@@ -434,7 +434,7 @@
 				)
 			)
 			(pin power_in line
-				(at 22.86 -30.48 180)
+				(at -1.27 -43.18 90)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -452,7 +452,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 22.86 27.94 180)
+				(at 24.13 24.13 180)
 				(length 5.08)
 				(name "OUTPR"
 					(effects
@@ -470,7 +470,7 @@
 				)
 			)
 			(pin open_collector line
-				(at 22.86 -15.24 180)
+				(at -24.13 -5.08 0)
 				(length 5.08)
 				(name "FAULTZ"
 					(effects
@@ -488,7 +488,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 22.86 35.56 180)
+				(at 24.13 26.67 180)
 				(length 5.08)
 				(name "BSPR"
 					(effects
@@ -506,7 +506,7 @@
 				)
 			)
 			(pin power_in line
-				(at -22.86 27.94 0)
+				(at -2.54 43.18 270)
 				(length 5.08)
 				(name "PVCC"
 					(effects
@@ -524,7 +524,7 @@
 				)
 			)
 			(pin power_in line
-				(at -22.86 25.4 0)
+				(at -5.08 43.18 270)
 				(length 5.08)
 				(name "PVCC"
 					(effects
@@ -542,7 +542,7 @@
 				)
 			)
 			(pin power_in line
-				(at 22.86 -33.02 180)
+				(at -3.81 -43.18 90)
 				(length 5.08)
 				(name "PAD"
 					(effects
@@ -560,7 +560,7 @@
 				)
 			)
 			(pin input line
-				(at -22.86 20.32 0)
+				(at -24.13 33.02 0)
 				(length 5.08)
 				(name "RINP"
 					(effects
@@ -578,7 +578,7 @@
 				)
 			)
 			(pin input line
-				(at -22.86 17.78 0)
+				(at -24.13 30.48 0)
 				(length 5.08)
 				(name "RINN"
 					(effects
@@ -596,7 +596,7 @@
 				)
 			)
 			(pin input line
-				(at -22.86 -20.32 0)
+				(at -24.13 6.35 0)
 				(length 5.08)
 				(name "PLIMIT"
 					(effects
@@ -614,7 +614,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -22.86 -25.4 0)
+				(at -24.13 10.16 0)
 				(length 5.08)
 				(name "GVDD"
 					(effects
@@ -632,7 +632,7 @@
 				)
 			)
 			(pin input line
-				(at -22.86 -30.48 0)
+				(at -24.13 2.54 0)
 				(length 5.08)
 				(name "GAIN_SLV"
 					(effects
@@ -650,7 +650,7 @@
 				)
 			)
 			(pin power_in line
-				(at 22.86 -22.86 180)
+				(at 6.35 -43.18 90)
 				(length 5.08)
 				(name "GND"
 					(effects
