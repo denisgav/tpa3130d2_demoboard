@@ -1751,6 +1751,12 @@
 		(uuid "1d3ade97-12ea-488e-92a8-9ee53b5fc75a")
 	)
 	(junction
+		(at 166.37 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2169abc3-b443-487c-b5d8-7e6b6676be3d")
+	)
+	(junction
 		(at 140.97 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1817,12 +1823,6 @@
 		(uuid "5f0ef079-10e4-4197-8428-d28cefa6fd66")
 	)
 	(junction
-		(at 166.37 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "630f5625-3aed-46fb-8bc1-788dfea83346")
-	)
-	(junction
 		(at 144.78 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1845,6 +1845,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b6491e3-2a5a-407c-84a1-460cdca35d1b")
+	)
+	(junction
+		(at 176.53 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a17b7e09-ad40-4546-857f-8b20a5e75699")
 	)
 	(junction
 		(at 171.45 149.86)
@@ -1995,6 +2001,16 @@
 			(type default)
 		)
 		(uuid "13c4a435-b8d4-4a52-aaca-b9728791f889")
+	)
+	(wire
+		(pts
+			(xy 176.53 54.61) (xy 179.07 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18065e8b-6dda-4714-87b8-f5e16d2f5f2f")
 	)
 	(wire
 		(pts
@@ -2228,6 +2244,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 25.4) (xy 179.07 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "559c1f61-ce03-4fe9-982c-87b9f6a0597a")
+	)
+	(wire
+		(pts
 			(xy 102.87 25.4) (xy 115.57 25.4)
 		)
 		(stroke
@@ -2355,16 +2381,6 @@
 			(type default)
 		)
 		(uuid "769d6411-4057-4392-8b33-c28f7bff451b")
-	)
-	(wire
-		(pts
-			(xy 168.91 39.37) (xy 166.37 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77d69e75-acf1-4086-9f85-ed4714b690ed")
 	)
 	(wire
 		(pts
@@ -2718,16 +2734,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 39.37) (xy 168.91 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4cbf50b-588f-497e-a86a-94f7b37cd139")
-	)
-	(wire
-		(pts
 			(xy 139.7 81.28) (xy 147.32 81.28)
 		)
 		(stroke
@@ -2815,6 +2821,16 @@
 			(type default)
 		)
 		(uuid "e17ac8e4-8ae7-4ed8-b9f5-f90dd35ae26a")
+	)
+	(wire
+		(pts
+			(xy 179.07 25.4) (xy 179.07 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e424bf3d-1718-4421-a43f-00fab8656c39")
 	)
 	(wire
 		(pts
@@ -2978,7 +2994,6 @@
 	)
 	(label "MUTE"
 		(at 140.97 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

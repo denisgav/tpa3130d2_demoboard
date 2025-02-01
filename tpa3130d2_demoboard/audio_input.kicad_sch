@@ -1268,7 +1268,6 @@
 	)
 	(label "IN_R"
 		(at 91.44 83.82 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1279,7 +1278,6 @@
 	)
 	(label "IN_L"
 		(at 91.44 88.9 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
