@@ -1079,6 +1079,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 54.61) (xy 139.7 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c63bf47-e0b2-4daf-9ad4-be59c9f4a37d")
+	)
+	(wire
+		(pts
 			(xy 69.85 95.25) (xy 85.09 95.25)
 		)
 		(stroke
@@ -1149,16 +1159,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 116.84) (xy 139.7 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f2ed12c-ad25-4685-8d5e-34e711937993")
-	)
-	(wire
-		(pts
 			(xy 35.56 76.2) (xy 40.64 76.2)
 		)
 		(stroke
@@ -1186,16 +1186,6 @@
 			(type default)
 		)
 		(uuid "3656bacb-8419-4c84-b06b-5e6dc57a35a3")
-	)
-	(wire
-		(pts
-			(xy 134.62 54.61) (xy 139.7 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "367dcfd6-428d-4ecd-8f94-8d3aff9eb24b")
 	)
 	(wire
 		(pts
@@ -1236,6 +1226,16 @@
 			(type default)
 		)
 		(uuid "3c83074b-fd4b-4cdd-a912-7fcc11540b2e")
+	)
+	(wire
+		(pts
+			(xy 134.62 114.3) (xy 139.7 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ef85df1-1236-44dd-bfd6-e654fc9f9a98")
 	)
 	(wire
 		(pts
@@ -1419,6 +1419,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 116.84) (xy 139.7 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "849fdb54-c776-47ad-b468-5e3de4ecd618")
+	)
+	(wire
+		(pts
 			(xy 99.06 116.84) (xy 99.06 114.3)
 		)
 		(stroke
@@ -1489,16 +1499,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 114.3) (xy 139.7 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a19edf0-4459-461e-9972-8aa9a5a19909")
-	)
-	(wire
-		(pts
 			(xy 53.34 95.25) (xy 57.15 95.25)
 		)
 		(stroke
@@ -1506,16 +1506,6 @@
 			(type default)
 		)
 		(uuid "9b043664-5ecb-47aa-ba95-4701d71fd02e")
-	)
-	(wire
-		(pts
-			(xy 134.62 57.15) (xy 139.7 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3f45e56-b36d-4776-96cd-60fed20b2811")
 	)
 	(wire
 		(pts
@@ -1546,6 +1536,16 @@
 			(type default)
 		)
 		(uuid "b0219d4b-f73d-429d-a413-149783176dac")
+	)
+	(wire
+		(pts
+			(xy 134.62 57.15) (xy 139.7 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b210ec96-fe66-47f4-b7ca-3ef0bcbebbaa")
 	)
 	(wire
 		(pts
@@ -4203,7 +4203,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 144.78 114.3 0)
+		(at 144.78 116.84 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4211,7 +4212,7 @@
 		(dnp no)
 		(uuid "e04bbb73-aa1f-4c94-9de6-721693cedc86")
 		(property "Reference" "J301"
-			(at 144.78 123.19 0)
+			(at 144.78 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4219,15 +4220,15 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 144.78 120.65 0)
+			(at 144.78 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
-			(at 144.78 114.3 0)
+		(property "Footprint" "tpa3130d2_demoboard:terminal_block"
+			(at 144.78 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4236,7 +4237,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 114.3 0)
+			(at 144.78 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4245,7 +4246,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 144.78 114.3 0)
+			(at 144.78 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4254,7 +4255,7 @@
 			)
 		)
 		(property "Manufacturer" "Ningbo Kangnex Elec"
-			(at 144.78 114.3 0)
+			(at 144.78 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4263,7 +4264,7 @@
 			)
 		)
 		(property "Part Number" "WJ500V-5.08-2P"
-			(at 144.78 114.3 0)
+			(at 144.78 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4465,7 +4466,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 144.78 54.61 0)
+		(at 144.78 57.15 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4473,7 +4475,7 @@
 		(dnp no)
 		(uuid "fa1ddf7d-8f5d-4c09-be0a-63e9d5b50b2b")
 		(property "Reference" "J300"
-			(at 144.78 63.5 0)
+			(at 144.78 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4481,15 +4483,15 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 144.78 60.96 0)
+			(at 144.78 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
-			(at 144.78 54.61 0)
+		(property "Footprint" "tpa3130d2_demoboard:terminal_block"
+			(at 144.78 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4498,7 +4500,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 54.61 0)
+			(at 144.78 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4507,7 +4509,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 144.78 54.61 0)
+			(at 144.78 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4516,7 +4518,7 @@
 			)
 		)
 		(property "Manufacturer" "Ningbo Kangnex Elec"
-			(at 144.78 54.61 0)
+			(at 144.78 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4525,7 +4527,7 @@
 			)
 		)
 		(property "Part Number" "WJ500V-5.08-2P"
-			(at 144.78 54.61 0)
+			(at 144.78 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)

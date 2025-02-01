@@ -865,16 +865,16 @@
 		(uuid "034357d0-2417-4cc7-8273-3ca43ee9f93b")
 	)
 	(junction
-		(at 74.93 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4c8a5960-fdd6-47ef-bdcf-737ffa3265a2")
-	)
-	(junction
 		(at 95.25 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5a82a166-6f43-45a6-bd7c-3056d6fe52c3")
+	)
+	(junction
+		(at 74.93 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8fa48329-ae2c-4564-a7ef-e23d9bfcbcc3")
 	)
 	(junction
 		(at 74.93 53.34)
@@ -928,16 +928,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 119.38) (xy 64.77 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f0a20be-1150-41d8-b6e8-a1df4357f82b")
-	)
-	(wire
-		(pts
 			(xy 74.93 88.9) (xy 95.25 88.9)
 		)
 		(stroke
@@ -965,16 +955,6 @@
 			(type default)
 		)
 		(uuid "3aa6efd0-4013-4ad0-a29d-44b61e4effc5")
-	)
-	(wire
-		(pts
-			(xy 74.93 116.84) (xy 64.77 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4722bec7-0eb2-4966-9d0f-9f4585534a6e")
 	)
 	(wire
 		(pts
@@ -1108,6 +1088,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 116.84) (xy 74.93 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77fa1752-22ed-4172-acf7-b67c80f24b2f")
+	)
+	(wire
+		(pts
 			(xy 74.93 53.34) (xy 74.93 57.15)
 		)
 		(stroke
@@ -1225,6 +1215,16 @@
 			(type default)
 		)
 		(uuid "ba521683-1dbc-4e36-8e7c-a2dfa6bc03cf")
+	)
+	(wire
+		(pts
+			(xy 64.77 119.38) (xy 71.12 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d664468d-8eb5-4a2a-9297-9d587d5bc5c1")
 	)
 	(wire
 		(pts
@@ -2139,7 +2139,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
+		(property "Footprint" "tpa3130d2_demoboard:terminal_block"
 			(at 59.69 55.88 0)
 			(effects
 				(font
@@ -2267,16 +2267,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 59.69 119.38 180)
+		(at 59.69 116.84 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cc69d78b-0e3a-42b9-9643-7658f8fc58b0")
 		(property "Reference" "J102"
-			(at 59.69 110.49 0)
+			(at 59.69 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2284,15 +2284,15 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 59.69 113.03 0)
+			(at 59.69 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
-			(at 59.69 119.38 0)
+		(property "Footprint" "tpa3130d2_demoboard:terminal_block"
+			(at 59.69 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2301,7 +2301,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 119.38 0)
+			(at 59.69 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2310,7 +2310,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 59.69 119.38 0)
+			(at 59.69 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2319,7 +2319,7 @@
 			)
 		)
 		(property "Manufacturer" "Ningbo Kangnex Elec"
-			(at 59.69 119.38 0)
+			(at 59.69 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2328,7 +2328,7 @@
 			)
 		)
 		(property "Part Number" "WJ500V-5.08-2P"
-			(at 59.69 119.38 0)
+			(at 59.69 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
